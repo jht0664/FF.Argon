@@ -1,0 +1,7 @@
+[ atomtypes ]
+; full atom descriptions are available in ffoplsaa.atp
+; CO2 nonbonded parameter of EPM2 model
+; name  bond_type    mass    charge   ptype          sigma (nm)      epsilon (kJ mol-1 nm-2)
+ arg_ar   AR	18      39.9480     0.00000       A    3.34500e-01  10.40970e-01 ; Lennard-Jones as a model for argon and test of extended renormalization group calculations, John A. White, Citation: The Journal of Chemical Physics 111, 9352 (1999); doi: 10.1063/1.479848
+ ; sigma = 3.345 A
+ ; epsilon/kb = 125.7 K -> epsilon = 125.7 * 1.38064852 * 10^-23 * 6.022140857 * 10^23 / 1000 =  (kJ/mol)
