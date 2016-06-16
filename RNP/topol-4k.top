@@ -1,0 +1,12 @@
+; Include forcefield parameters
+#include "ffepm2aa.itp"
+#include "ar.itp"
+
+[ system ]
+; Name
+AR_4000
+
+[ molecules ]
+; Compound        #mols
+ARG            4000
+

@@ -1,0 +1,8 @@
+[ atomtypes ]
+; full atom descriptions are available in ffoplsaa.atp
+; CO2 nonbonded parameter of EPM2 model
+; name  bond_type    mass    charge   ptype          sigma      epsilon
+ arg_ar   AR	18      39.9480     0.00000       A    3.40500e-01  9.96072e-01 ; Monte Carlo grand canonical ensemble calculation in a gas-liquid transition region for 12-6 Argon, L.A Rowley, D Nicholson, N.G Parsonage, Journal of Computational Physics, Volume 17, Issue 4, April 1975, Pages 401-414, doi:10.1016/0021-9991(75)90042-X
+ ; sigma = 3.405 A
+ ; epsilon/kb = 119.8 K -> epsilon = 119.8 * 1.38064852 * 10^-23 * 6.022140857 * 10^23 / 1000 =  (kJ/mol)
+
